@@ -4,114 +4,170 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Future</title>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=<ваш API-ключ>&lang=ru_RU" type="text/javascript">
+    </script>
     <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,800,900&display=swap" rel="stylesheet">
 </head>
 <body>
 <header class="header">
-    <div class="header-top">
-        <img src="" alt="" class="logo">
-        <a href="" class="phone"></a>
+    <div class="wrapper">
+        <div class="header-top">
+            <img src="img/logo.png" alt="" class="logo">
+            <a href="tel:88001231212" class="header__phone phone">8(800)-123-12-12</a>
+        </div>
     </div>
-    <div class="header-bottom">
-        <h1 class="header__title"><span class="title_orange"></span></h1>
-        <p class="header__desc"></p>
-        <button class="header__btn btn"></button>
 
+    <div class="header-bottom">
+        <div class="wrapper">
+            <h1 class="header__title">Эксклюзивная <span class="title_orange">фотосессия</span> при полете на вертолете</h1>
+            <div class="header__price">
+                    <p class="cost">Стоимость:</p>
+                    <p class="price">1500₽</p>
+                    <p class="percent">%</p>
+            </div>
+            <button class="header__btn btn">Забронировать место</button>
+        </div>
     </div>
 </header>
 <main class="main">
+    <div class="wrapper">
     <section class="section-photo">
-        <h2 class="section-photo__title"></h2>
-        <p class="section-photo__text text"></p>
-        <p class="section-photo__desc"></p>
-        <p class="section-photo__desc"></p>
-        <p class="section-photo__desc"></p>
-        <p class="section-photo__desc"></p>
-        <div class="section-photo__aside aside">
-            <p class="aside__desc"> <span class="desc_bold"></span></p>
+        <div class="left">
+            <h2 class="section-photo__title">Фотосессия<br>в вертолете</h2>
+            <p class="section-photo__text text">Полет на вертолете это прекрасная возможность получить новые ощущения! А наш замечательный фотограф запечатлит лучшие моменты</p>
+            <div class="section-photo__desc">
+                <img src="img/clock.svg" alt="" class="section-photo__desc-clock">
+                <p class="text">3 часа съемки</p>
+            </div>
+            <div class="section-photo__desc">
+                <img src="img/photo.svg" alt="" class="section-photo__desc-photo">
+                <p class="text">Более 50 фотографий</p>
+            </div>
+            <div class="section-photo__desc">
+                <img src="img/map-marker.svg" alt="" class="section-photo__desc-marker">
+                <p class="text">Москва</p>
+            </div>
+            <div class="section-photo__desc">
+                <img src="img/speech.svg" alt="" class="section-photo__desc-speech">
+                <p class="text">Готовы ответить на любые вопросы</p>
+            </div>
+
+            <div class="section-photo__aside aside">
+                <img src="img/Groupcup.svg" alt="" class="cup">
+                <p class="aside__desc">Более <span class="desc_bold">50</span>  отзывов с оценкой</p>
+                <div class="stars-box">
+                    <img src="img/star.svg" alt="" class="star">
+                    <img src="img/star.svg" alt="" class="star">
+                    <img src="img/star.svg" alt="" class="star">
+                    <img src="img/star.svg" alt="" class="star">
+                    <img src="img/star.svg" alt="" class="star">
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <img src="img/img1.png" alt="" class="section-photo__img">
         </div>
     </section>
     <section class="section-gallery">
-        <h3 class="section-gallery__title"></h3>
-        <img src="" alt="" class="section-gallery__img">
-        <img src="" alt="" class="section-gallery__img">
-        <img src="" alt="" class="section-gallery__img">
-        <img src="" alt="" class="section-gallery__img">
-        <img src="" alt="" class="section-gallery__img">
-        <img src="" alt="" class="section-gallery__img">
-        <img src="" alt="" class="section-gallery__img">
-        <img src="" alt="" class="section-gallery__img">
-        <img src="" alt="" class="section-gallery__img">
-        <img src="" alt="" class="section-gallery__img">
-        <img src="" alt="" class="section-gallery__img">
-        <img src="" alt="" class="section-gallery__img">
-        <img src="" alt="" class="section-gallery__img">
-        <img src="" alt="" class="section-gallery__img">
-        <img src="" alt="" class="section-gallery__img">
-        <img src="" alt="" class="section-gallery__img">
-        <img src="" alt="" class="section-gallery__img">
-        <img src="" alt="" class="section-gallery__img">
-        <img src="" alt="" class="section-gallery__img">
-        <img src="" alt="" class="section-gallery__img">
-        <p class="section-gallery__show show"></p>
+        <h3 class="section-gallery__title">Фотографии пакета:</h3>
+        <div class="section-gallery__box">
+            <img src="img/img1.png" alt="" class="section-gallery__img">
+            <img src="img/img1.png" alt="" class="section-gallery__img">
+            <img src="img/img1.png" alt="" class="section-gallery__img">
+            <img src="img/img1.png" alt="" class="section-gallery__img">
+            <img src="img/img1.png" alt="" class="section-gallery__img">
+            <img src="img/img1.png" alt="" class="section-gallery__img">
+            <img src="img/img1.png" alt="" class="section-gallery__img">
+            <img src="img/img1.png" alt="" class="section-gallery__img">
+            <img src="img/img1.png" alt="" class="section-gallery__img">
+            <img src="img/img1.png" alt="" class="section-gallery__img">
+            <img src="img/img1.png" alt="" class="section-gallery__img">
+            <img src="img/img1.png" alt="" class="section-gallery__img">
+            <img src="img/img1.png" alt="" class="section-gallery__img">
+            <img src="img/img1.png" alt="" class="section-gallery__img">
+            <img src="img/img1.png" alt="" class="section-gallery__img">
+            <img src="img/img1.png" alt="" class="section-gallery__img">
+            <img src="img/img1.png" alt="" class="section-gallery__img">
+            <img src="img/img1.png" alt="" class="section-gallery__img">
+            <img src="img/img1.png" alt="" class="section-gallery__img">
+            <img src="img/img1.png" alt="" class="section-gallery__img">
+        </div>
+        <p class="section-gallery__show show">Показать все фото</p>
     </section>
     <section class="section-organizer">
         <div class="left">
-            <h3 class="section-organizer__title"></h3>
-            <p class="section-organizer__text"></p>
-            <p class="section-organizer__text"></p>
-            <p class="section-organizer__show show"></p>
-            <h3 class="section-organizer__title"></h3>
-            <p class="section-organizer__text"></p>
-            <p class="section-organizer__show show"></p>
+            <h3 class="section-organizer__title">Об организаторе:</h3>
+            <p class="section-organizer__text">Всем привет! Я фотограф Мария! И по мимо фотосъемки я так же являюсь членом группы экспертов туристической отрасли, которые хорошо разбираются в маркетинге, операциях и услугах обслуживания клиентов, специализирующихся на совместном использовании и частных турах.</p>
+            <p class="section-organizer__text">Сначала мы (я и моя команда) изучаем интересы клиентов, а затем придумываем подходящее решение, которое соответствует бюджету и планам клиента. Мы никогда не зависим от субпоставщиков и не свяжемся…</p>
+            <p class="section-organizer__show show">Читать еще</p>
+            <h3 class="section-organizer__title">Что я предоставлю:</h3>
+            <p class="section-organizer__text">Встречу вас на машине после длительного перелёта. Качественный подбор места и локации для вашей съемки. При необходимости всегда возможно прерваться на обед/ужин. Более 50 фотографий на выходе с обработкой и замечательные впечатления о Дубае !</p>
+            <p class="section-organizer__show show">Читать еще</p>
         </div>
         <div class="right">
-            <img src="" alt="" class="section-organizer__img">
-            <p class="section-organizer__heart"></p>
-            <h3 class="section-organizer__title"></h3>
-            <p class="section-organizer__subtitle"></p>
-            <p class="section-organizer__show-more show-more"></p>
+            <img src="img/Ellipse.png" alt="" class="section-organizer__img">
+            <img src="img/Vectorheart.svg" alt="" class="section-organizer__heart">
+            <h3 class="section-organizer__title">Марина Иванова</h3>
+            <p class="section-organizer__subtitle">Фотограф</p>
+            <a href="#" class="section-organizer__show-more show-more">Показать больше<br>информации о фотографе</a>
         </div>
     </section>
     <section class="section-buy">
-        <h3 class="section-buy__title"></h3>
+        <h3 class="section-buy__title">Доступная съемка в ближайшее время:</h3>
         <article class="article-buy">
             <div class="article-buy__date">
-                <p class="date"></p>
-                <p class="date-btn"></p>
+                <p class="date">Пятница, 14 сентября</p>
+                <button src="" alt="" class="date-btn"></button>
             </div>
             <div class="article-buy__content">
-                <p class="time"></p>
-                <p class="price"></p>
-                <p class="place"></p>
-                <button class="section-buy__btn btn"></button>
+                <p class="time">15:00 - 18:00</p>
+                <p class="price">1500₽</p>
+                <p class="place">Осталось — 1 место</p>
+                <button class="section-buy__btn btn">Выбрать</button>
             </div>
             <div class="article-buy__content">
-                <p class="time"></p>
-                <p class="price"></p>
-                <p class="place"></p>
-                <button class="section-buy__btn btn"></button>
+                <p class="time">19:00 - 22:00</p>
+                <p class="price">1500₽</p>
+                <p class="place">Осталось — 1 место</p>
+                <button class="section-buy__btn btn">Выбрать</button>
             </div>
             <div class="article__aside aside">
-                <p class="aside__desc"> <span class="desc_bold"></span></p>
+                <img src="img/Groupcup.svg" alt="" class="cup">
+                <p class="aside__desc">Более <span class="desc_bold">50</span>  отзывов с оценкой</p>
+                <div class="stars-box">
+                    <img src="img/star.svg" alt="" class="star">
+                    <img src="img/star.svg" alt="" class="star">
+                    <img src="img/star.svg" alt="" class="star">
+                    <img src="img/star.svg" alt="" class="star">
+                    <img src="img/star.svg" alt="" class="star">
+                </div>
             </div>
         </article>
     </section>
+    </div>
+
     <section class="section-map">
+        <div id="map" style="width: 100%; height: 509px"></div>
         <article class="article-map">
             <div class="article-map__content">
-                <p class="where"><span class="city"></span></p>
+                <p class="num">1</p>
+                <p class="where">Где встречаемся?<span class="city">Москва</span></p>
             </div>
             <div class="article-map__content">
-                <p class="where"><span class="city"></span></p>
+                <p class="num">2</p>
+                <p class="where">Время съемки<span class="city">3 часа</span></p>
             </div>
             <div class="article-map__content">
-                <p class="where"><span class="city"></span></p>
+                <p class="num">3</p>
+                <p class="where">Мест осталось:<span class="city">2 места</span></p>
             </div>
             <div class="article-map__content">
+                <img src="img/Ellipse.png" alt="" class="num">
                 <p class="where">
-                    <span class="who"></span>
-                    <span class="show-more"></span>
+                    <span class="who">Мария Иванова</span>
+                    <span class="prof">Фотограф</span>
+                    <a href="#" class="show-more">Показать больше информации</a>
                 </p>
             </div>
         </article>
@@ -137,10 +193,121 @@
                 <p class="reviews__date"></p>
             </div>
         </article>
+        <div class="mmm">
+            <div class="hhh">
+                <p>12312151515151515</p>
+            </div>
+        <div class="hhh">
+            <p>12312151515151515</p>
+        </div>
+        <div class="hhh">
+            <p>12312151515151515</p>
+        </div>
+        <div class="hhh">
+            <p>12312151515151515</p>
+        </div>
+        <div class="hhh">
+            <p>12312151515151515</p>
+        </div>
+        <div class="hhh">
+            <p>12312151515151515</p>
+        </div> <div class="hhh">
+        <p>12312151515151515</p>
+    </div>
+        <div class="hhh">
+            <p>12312151515151515</p>
+        </div> <div class="hhh">
+        <p>12312151515151515</p>
+    </div> <div class="hhh">
+        <p>12312151515151515</p>
+    </div> <div class="hhh">
+        <p>12312151515151515</p>
+    </div> <div class="hhh">
+        <p>12312151515151515</p>
+    </div> <div class="hhh">
+        <p>12312151515151515</p>
+    </div> <div class="hhh">
+        <p>12312151515151515</p>
+    </div> <div class="hhh">
+        <p>12312151515151515</p>
+    </div> <div class="hhh">
+        <p>12312151515151515</p>
+    </div> <div class="hhh">
+        <p>12312151515151515</p>
+    </div> <div class="hhh">
+        <p>12312151515151515</p>
+    </div> <div class="hhh">
+        <p>12312151515151515</p>
+    </div> <div class="hhh">
+        <p>12312151515151515</p>
+    </div> <div class="hhh">
+        <p>12312151515151515</p>
+    </div> <div class="hhh">
+        <p>12312151515151515</p>
+    </div> <div class="hhh">
+        <p>12312151515151515</p>
+    </div> <div class="hhh">
+        <p>12312151515151515</p>
+    </div> <div class="hhh">
+        <p>12312151515151515</p>
+    </div> <div class="hhh">
+        <p>12312151515151515</p>
+    </div> <div class="hhh">
+        <p>12312151515151515</p>
+    </div> <div class="hhh">
+        <p>12312151515151515</p>
+    </div> <div class="hhh">
+        <p>12312151515151515</p>
+    </div> <div class="hhh">
+        <p>12312151515151515</p>
+    </div> <div class="hhh">
+        <p>12312151515151515</p>
+    </div> <div class="hhh">
+        <p>12312151515151515</p>
+    </div> <div class="hhh">
+        <p>12312151515151515</p>
+    </div> <div class="hhh">
+        <p>12312151515151515</p>
+    </div> <div class="hhh">
+        <p>12312151515151515</p>
+    </div> <div class="hhh">
+        <p>12312151515151515</p>
+    </div> <div class="hhh">
+        <p>12312151515151515</p>
+    </div> <div class="hhh">
+        <p>12312151515151515</p>
+    </div> <div class="hhh">
+        <p>12312151515151515</p>
+    </div> <div class="hhh">
+        <p>12312151515151515</p>
+    </div> <div class="hhh">
+        <p>12312151515151515</p>
+    </div> <div class="hhh">
+        <p>12312151515151515</p>
+    </div> <div class="hhh">
+        <p>12312151515151515</p>
+    </div> <div class="hhh">
+        <p>12312151515151515</p>
+    </div> <div class="hhh">
+        <p>12312151515151515</p>
+    </div> <div class="hhh">
+        <p>12312151515151515</p>
+    </div> <div class="hhh">
+        <p>12312151515151515</p>
+    </div> <div class="hhh">
+        <p>12312151515151515</p>
+    </div> <div class="hhh">
+        <p>12312151515151515</p>
+    </div> <div class="hhh">
+        <p>12312151515151515</p>
+    </div> <div class="hhh">
+        <p>12312151515151515</p>
+    </div>
+        </div>
 
-        <p class="section-reviews__show show"></p>
+
+        <p class="section-reviews__show show">Показать еще</p>
     </section>
-
 </main>
 <footer class="footer">
     <div class="footer-top">
@@ -160,6 +327,7 @@
     </div>
 </div>
 </footer>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script src="main.js"></script>
 </body>
 </html>
